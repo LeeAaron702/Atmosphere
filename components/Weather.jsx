@@ -2,8 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const Weather = ({ data }) => {
-  console.log("🚀 ~ file: Weather.jsx:4 ~ Weather ~ data:", data);
-  console.log("🚀 ~ file: Weather.jsx:4 ~ Weather ~ data:", data.weather[0].icon);
+
 
   return (
     <div className='relative flex flex-col justify-between max-w-[500px] w-full h-[90vh] m-auto p-4 text-gray-300 z-10'>
@@ -24,16 +23,16 @@ const Weather = ({ data }) => {
         <p className='text-2xl text-center pb-6'>Weather in {data.name}</p>
         <div className='flex justify-between text-center'>
             <div>
-                <p>{data.main.feels_like.toFixed(0)}&#176;</p>
-                <p>Feels Like</p>
+                <p className='font-bold text-2xl'>{data.main.feels_like.toFixed(0)}&#176;</p>
+                <p className='text-xl'>Feels Like</p>
             </div>
             <div>
-                <p>{data.main.humidity.toFixed(0)}%</p>
-                <p>Humidity</p>
+                <p className='font-bold text-2xl'>{data.main.humidity.toFixed(0)}%</p>
+                <p className='text-xl'>Humidity</p>
             </div>
             <div>
-                <p>{data.wind.speed.toFixed(0)} MPH</p>
-                <p>Winds</p>
+                <p className='font-bold text-2xl'>{data.wind.speed.toFixed(0)} MPH</p>
+                <p className='text-xl'>Winds</p>
             </div>
         </div>
       </div>
