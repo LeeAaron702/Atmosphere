@@ -1,6 +1,6 @@
 # Atmosphere: A Weather Forecast Application
 
-https://github.com/LeeAaron702/Atmosphere/assets/112150883/f790abdd-434a-48b0-a450-598c5b30bfcd
+![Atmosphere GIF](https://github.com/LeeAaron702/Atmosphere/assets/112150883/be227703-7aef-4311-9b1f-06eeeaedeac5)
 
 
 Atmosphere is a web-based application that allows users to get real-time weather data for any city around the world.
