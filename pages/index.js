@@ -47,17 +47,21 @@ export default function Home() {
         />
 
         {/* search */}
-        <div className='relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 text-white z-10'>
-          <form onSubmit={fetchWeather} className='flex justify-between items-center w-full m-auto p-3 bg-transparent border border-gray-300 text-white rounded-2xl'>
-            <div>
-              <input onChange={(e) => setCity(e.target.value)} className='bg-transparent border-none text-white focus:outline-none text-2xl placeholder:text-gray' type='text' placeholder='Search City' />
-            </div>
-            <button onClick={fetchWeather}>
-              <BsSearch size={25} />
-            </button>
-          </form>
+        <div className='relative max-w-[500px] w-full m-auto pt-4 text-white z-10'>
+          <h1 className="text-5xl text-white mb-4 text-center p-2">Atmosphere</h1>
+          <div className='flex justify-between items-center w-full'>
+            <form onSubmit={fetchWeather} className='flex justify-between items-center w-full m-auto p-3 bg-transparent border border-gray-300 text-white rounded-2xl'>
+              <div>
+                <input onChange={(e) => setCity(e.target.value)} className='bg-transparent border-none text-white focus:outline-none text-2xl placeholder:text-gray' type='text' placeholder='Search City' />
+              </div>
+              <button onClick={fetchWeather}>
+                <BsSearch size={25} />
+              </button>
+            </form>
+          </div>
         </div>
-        {/*  */}
+
+        {/* Weather */}
 
         {weather.main && <Weather data={weather} />}
       </div>
