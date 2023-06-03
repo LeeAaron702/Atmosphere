@@ -15,7 +15,7 @@ Features
 ## Installation and Setup
 To get a local copy up and running, follow these steps:
 ### Prerequisites
-This project requires Node.js installed on your local machine. You can download it from here.
+This project requires Node.js installed on your local machine. You can download it from [here](https://nodejs.org/en/download).
 1. Clone the repository:
 ```
 git clone https://github.com/LeeAaron702/Atmosphere.git
