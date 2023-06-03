@@ -1,4 +1,8 @@
 # Atmosphere: A Weather Forecast Application
+
+https://github.com/LeeAaron702/Atmosphere/assets/112150883/f790abdd-434a-48b0-a450-598c5b30bfcd
+
+
 Atmosphere is a web-based application that allows users to get real-time weather data for any city around the world.
 ## Description
 Developed using the Next.js framework, this application leverages the power of the OpenWeatherMap API to fetch and display weather data based on user input. It includes a sleek, responsive user interface and provides users with essential weather data such as temperature, humidity, and wind speed.
